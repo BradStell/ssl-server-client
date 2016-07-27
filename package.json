@@ -1,0 +1,16 @@
+{
+  "name": "https-ssl-ca-server",
+  "version": "1.0.0",
+  "description": "https server and clients using certificates signed by our own CA",
+  "main": "client1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brad",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "express": "^4.14.0"
+  }
+}
